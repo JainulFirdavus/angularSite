@@ -1,0 +1,326 @@
+<!-- <div id="main-slider" class="dl-slider">
+    <div class="single-slide">
+        <div class="bg-img kenburns-top-right" style="background-image: url(../../assets/img/slider-1.jpg);"></div>
+        <div class="overlay"></div>
+        <div class="slider-content-wrap d-flex align-items-center text-left">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="dl-caption medium">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-right" data-delay="1s">Residencial</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-left" data-delay="2s">We provide outstanding</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-left" data-delay="2.5s">construction services.</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption small">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-left" data-delay="3s">We have provided complete remodeling
+                                and construction solutions for <br>residential and commercial properties in cities.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dl-btn-group">
+                        <div class="inner-layer">
+                            <a href="#" class="dl-btn" data-animation="fade-in-left" data-delay="3.5s">View Projects
+                                <i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="single-slide">
+        <div class="bg-img kenburns-top-right" style="background-image: url(../../assets/img/slider-1.jpg);"></div>
+        <div class="overlay"></div>
+        <div class="slider-content-wrap d-flex align-items-center text-center">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="dl-caption medium">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-top" data-delay="1s">Residencial</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-bottom" data-delay="2s">We are professional</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-bottom" data-delay="2.5s">for building construction.</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption small">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-bottom" data-delay="3s">We have provided complete
+                                remodeling and construction solutions for <br>residential and commercial properties
+                                in cities.</div>
+                        </div>
+                    </div>
+                    <div class="dl-btn-group">
+                        <div class="inner-layer">
+                            <a href="#" class="dl-btn" data-animation="fade-in-bottom" data-delay="3.5s">View
+                                Projects <i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="single-slide">
+        <div class="bg-img kenburns-top-right" style="background-image: url(img/slider-3.jpg);"></div>
+        <div class="overlay"></div>
+        <div class="slider-content-wrap d-flex align-items-center text-right">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="dl-caption medium">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-left" data-delay="1s">Residencial</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-right" data-delay="2s">We will be happy to take care</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption big">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-right" data-delay="2.5s">of your construction works.</div>
+                        </div>
+                    </div>
+                    <div class="dl-caption small">
+                        <div class="inner-layer">
+                            <div data-animation="fade-in-right" data-delay="3s">We have provided complete remodeling
+                                and construction solutions for <br>residential and commercial properties in cities.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dl-btn-group">
+                        <div class="inner-layer">
+                            <a href="#" class="dl-btn" data-animation="fade-in-right" data-delay="3.5s">View
+                                Projects <i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+
+<!-- <ng-image-slider [images]="imgCollection" #nav></ng-image-slider> -->
+<ngb-carousel #carousel [interval]="5000" (slide)="onSlide($event)">
+    <ng-template ngbSlide *ngFor="let img of images; index as i">
+        <div class="carousel-caption" style="">
+            <!-- background: #0000005c; left: 60%; border-radius: 30px; bottom: 20%; -->
+            <!-- <h3>My slide {{i + 1}} title</h3> -->
+            <div class="login-content">
+
+                <form>
+                    <div class="line-editable">
+                        <input placeholder="Input01 *" type="text" class="Field_Input" id="input01" name="input01"
+                            required />
+
+                        <label>
+                            <div>Input01 *</div>
+                        </label>
+                    </div>
+
+                    <div class="line-editable">
+                        <input placeholder="Input02" type="text" class="Field_Input" id="input02" name="input02"
+                            value="333 123456789" />
+
+                        <label>
+                            <div>Input02</div>
+                        </label>
+                    </div>
+
+                    <div class="line-editable">
+                        <select placeholder="Select01" class="Field_Input" id="select01" name="select01">
+                            <option value="" disabled selected style="display:none">Select01</option>
+                            <option value="Option #1">Option #1</option>
+                            <option value="Option #2">Option #2</option>
+                            <option value="Option #3">Option #3</option>
+                        </select>
+
+                        <label>
+                            <div>Select01</div>
+                        </label>
+                    </div>
+
+                    <div class="line-editable">
+                        <textarea placeholder="Textarea01" class="Field_Input" id="textarea01"
+                            name="textarea01"></textarea>
+
+                        <label>
+                            <div>Textarea01</div>
+                        </label>
+                    </div>
+
+                    <div style="margin-top:15px; text-align:left; max-width:350px; margin:auto;">
+                        <input type="checkbox" value="1" checked="checked" id="privacy" name="privacy" />
+                        <label for="privacy">Accetto la privacy policy</label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <a>
+            <div class="picsum-img-wrapper">
+                <img [src]="img" alt="My image {{i + 1}} description">
+            </div>
+        </a>
+    </ng-template>
+</ngb-carousel>
+
+
+
+<section class="promo-section padding">
+    <div class="container">
+        <div class="row promo-wrap">
+            <div class="col-lg-3 col-sm-6 sm-padding">
+                <div class="promo-item box-shadow text-center wow fadeInUp" data-wow-delay="100ms">
+                    <img src="../../assets/img/icon/002-project.png">
+                    <h3>Professional Liability</h3>
+                    <p>We are committed to building a sustainable future by fostering a collaborative spirit.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 sm-padding">
+                <div class="promo-item box-shadow text-center wow fadeInUp" data-wow-delay="300ms">
+                    <img src="../../assets/img/icon/026-workflow.png">
+                    <h3>Dedicated To Clients</h3>
+                    <p>We are committed to building a sustainable future by fostering a collaborative spirit.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 sm-padding">
+                <div class="promo-item box-shadow text-center wow fadeInUp" data-wow-delay="400ms">
+                    <img src="../../assets/img/icon/020-target.png">
+                    <h3>Outstanding Services</h3>
+                    <p>We are committed to building a sustainable future by fostering a collaborative spirit.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 sm-padding">
+                <div class="promo-item box-shadow text-center wow fadeInUp" data-wow-delay="500ms">
+                    <img src="../../assets/img/icon/032-tactic.png">
+                    <h3>Clients Satisfaction</h3>
+                    <p>We are committed to building a sustainable future by fostering a collaborative spirit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service-section section-2 bg-grey padding">
+    <div class="dots"></div>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 sm-padding">
+                <div class="service-content wow fadeInLeft">
+                    <span>Explore The Features</span>
+                    <h2>Offering the most complete integrated package!</h2>
+                    <p>We are committed to building a sustainable future by fostering a collaborative spirit that
+                        creates exceptional experiences, balanced relationships, and community built environment.
+                        Building isn’t just job. It's our passion. With every project we undertake, we set the bar
+                        high and provide the best industry.</p>
+                    <p>Building isn’t just job. It's our passion. With every project we undertake, we set the bar
+                        high and provide the best industry.</p>
+                    <a href="#" class="default-btn">Our All Services</a>
+                </div>
+            </div>
+            <div class="col-lg-6 sm-padding">
+                <div class="row services-list">
+                    <div class="col-md-6 padding-15">
+                        <div class="service-item box-shadow wow fadeInUp" data-wow-delay="100ms">
+                            <img src="" class="flaticon-loader">
+                            <h3>General Building</h3>
+                            <p>We are committed building a sustainable future fostering a collaborative spirit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 padding-15 offset-top">
+                        <div class="service-item box-shadow wow fadeInUp" data-wow-delay="300ms">
+                            <img src="" class="flaticon-tanks">
+                            <h3>Building Construction</h3>
+                            <p>We are committed building a sustainable future fostering a collaborative spirit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 padding-15">
+                        <div class="service-item box-shadow wow fadeInUp" data-wow-delay="400ms">
+                            <img src="" class="flaticon-refinery">
+                            <h3>Refurbishments</h3>
+                            <p>We are committed building a sustainable future fostering a collaborative spirit.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 padding-15 offset-top">
+                        <div class="service-item box-shadow wow fadeInUp" data-wow-delay="500ms">
+                            <img src="" class="flaticon-control-system">
+                            <h3>Building Renovation</h3>
+                            <p>We are committed building a sustainable future fostering a collaborative spirit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+
+    (function ($) {
+        "use strict";
+
+        $(window).on('load', function () {
+            $('body').addClass('loaded');
+        });
+
+
+        /*=========================================================================
+            Main Slider
+        =========================================================================*/
+        $(document).ready(function () {
+
+            $('#main-slider').on('init', function (e, slick) {
+                var $firstAnimatingElements = $('div.single-slide:first-child').find('[data-animation]');
+                doAnimations($firstAnimatingElements);
+            });
+            $('#main-slider').on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+                var $animatingElements = $('div.single-slide[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+                doAnimations($animatingElements);
+            });
+            $('#main-slider').slick({
+                autoplay: true,
+                autoplaySpeed: 10000,
+                dots: true,
+                fade: true,
+                prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right"></i></div>'
+            });
+            function doAnimations(elements) {
+                var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                elements.each(function () {
+                    var $this = $(this);
+                    var $animationDelay = $this.data('delay');
+                    var $animationType = 'animated ' + $this.data('animation');
+                    $this.css({
+                        'animation-delay': $animationDelay,
+                        '-webkit-animation-delay': $animationDelay
+                    });
+                    $this.addClass($animationType).one(animationEndEvents, function () {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+        });
+
+    })
+</script>

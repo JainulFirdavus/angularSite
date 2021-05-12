@@ -1,0 +1,311 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro|Poppins:600,700|Work+Sans:600&amp;display=swap';
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8d9aa8;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    position: relative;
+    overflow-x: hidden
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: #ff7607
+}
+
+::selection {
+    background-color: #ff7607;
+    color: #fff
+}
+
+-webkit-::selection {
+    background-color: #ff7607;
+    color: #fff
+}
+
+::-moz-selection {
+    background-color: #ff7607;
+    color: #fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: poppins, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #263a4f
+}
+
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4,
+.bg-dark h5 {
+    color: #fff
+}
+
+.bg-dark p,
+.bg-dark span {
+    color: #999
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    margin: 0 0 10px;
+    color: #263a4f
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+    color: #263a4f;
+    margin: 0 0 10px;
+    font-weight: 600;
+    letter-spacing: -1px
+}
+
+h3,
+h4 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #263a4f;
+    letter-spacing: -.5px
+}
+
+h3 {
+    font-size: 20px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5,
+h6 {
+    font-size: 14px;
+    margin: 0 0 10px
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%
+}
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+p,
+li,
+a,
+span {}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px
+}
+
+a,
+a:hover {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ddd !important
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #ddd !important
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #ddd !important
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ddd !important
+}
+
+button {
+    border: none;
+    background: 0 0
+}
+
+.padding {
+    padding: 100px 0
+}
+
+.no-padding {
+    padding: 0
+}
+
+.padding-15 {
+    padding: 15px
+}
+
+.padding-20 {
+    padding: 20px
+}
+
+.box-padding {
+    padding: 0 50px
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.bg-grey {
+    background-color: #f9fafa
+}
+
+.bg-dark {
+    background-color: #242323 !important
+}
+
+.bd-top {
+    border-top: 1px solid #e5e5e5
+}
+
+.bd-bottom {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.mb-10 {
+    margin-bottom: 10px
+}
+
+.mb-15 {
+    margin-bottom: 15px
+}
+
+.mb-20 {
+    margin-bottom: 20px
+}
+
+.mb-25 {
+    margin-bottom: 25px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.mb-35 {
+    margin-bottom: 35px
+}
+
+.mb-40 {
+    margin-bottom: 40px
+}
+
+.mb-45 {
+    margin-bottom: 45px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.ml-15 {
+    margin-left: 15px
+}
+
+.ml-20 {
+    margin-left: 20px
+}
+
+.ml-25 {
+    margin-left: 25px
+}
+
+.ml-30 {
+    margin-left: 30px
+}
+
+.ml-35 {
+    margin-left: 35px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-40 {
+    margin-top: 40px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.fz-28 {
+    font-size: 28px
+}
+
+.fz-24 {
+    font-size: 24px
+}
+
+.fz-22 {
+    font-size: 22px
+}
+
+.fz-20 {
+    font-size: 20px
+}
+
+.fz-18 {
+    font-size: 18px
+}
+
+.fz-16 {
+    font-size: 16px
+}
+
+.text-black {
+    color: #333
+}
+
+.text-white {
+    color: #fff
+}
